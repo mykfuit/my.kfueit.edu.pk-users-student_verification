@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Data Verification</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+        #customers tr:hover {background-color: #ddd;}
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://kfueit.edu.pk/uploads/4/ueit-logo-r.png"  class="rounded mx-auto d-block p-2">
+        <div class="card border-success">
+            <div class="card-header">
+                <div class="card-title text-center" style="font-weight: bold;font-size: 16px;">ESHA ZAHID</div>
+            </div>
+            <div class="card-body">
+                <img src="image clint 2.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>RegNo:</strong> MSCI221101036</li>
+                    <li class="list-group-item"><strong>Father Name:</strong> ZAHID MEHBOOB</li>
+                    <li class="list-group-item"><strong>Program:</strong> BBA</li>
+                </ul>
+            </div>
+		</div>
+		<br/>
+		<strong>Courses List</strong><br>
+		<div class="table-responsive">
+			<table id="customers">
+				<tr>
+					<th>Course Code</th>
+					<th>Course Name</th>
+					<th>Credit Hours</th>
+					<th>Sections</th>
+					<th>Attendance %</th>
+
+				</tr>
+										<tr>
+							<td>ECON-2113</td>
+							<td>Macroeconomics</td>
+							<td>3</td>
+							<td>MSCI-BBA-3A</td>
+							<td>
+                                92.86															</td>
+						</tr>
+											<tr>
+							<td>MSCI-2101</td>
+							<td>Human Resource Management</td>
+							<td>3</td>
+							<td>MSCI-BBA-3A,MSCI-BBA-BRIDGE</td>
+							<td>
+																	86.67															</td>
+						</tr>
+											<tr>
+							<td>MSCI-2116</td>
+							<td>Principles of Accounting</td>
+							<td>3</td>
+							<td>MSCI-BBA-3A,MSCI-BBA-BRIDGE</td>
+							<td>
+																	87.5															</td>
+						</tr>
+											<tr>
+							<td>STAT-3113</td>
+							<td>Inferential Statistics</td>
+							<td>3</td>
+							<td>MSCI-BBA-3A</td>
+							<td>
+																	92.86															</td>
+						</tr>
+											<tr>
+							<td>ENGL-2111</td>
+							<td>Technical Writing and  Presentation Skills</td>
+							<td>3</td>
+							<td>MSCI-BBA-3A</td>
+							<td>
+																	85.71															</td>
+						</tr>
+											<tr>
+							<td>SSCI-1110</td>
+							<td>Contemporary World</td>
+							<td>3</td>
+							<td>MSCI-BBA-3A</td>
+							<td>
+																	92.86															</td>
+						</tr>
+					
+            </table>
+        </div>
+
+        <br />
+        <strong>Vouchers List</strong><br>
+        <div class='table-responsive'>
+            <table id="customers" >
+                <thead>
+                <tr>
+                    <th>SrNo</th>
+                    <th>Challan No</th>
+                    <th>Voucher Type</th>
+                    <th>Semester</th>
+                    <th>Due Date</th>
+                    <th>Amount</th>
+                    <th>Voucher Status</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                <tr><td>1</td><td>10419312</td><td>Semester Exam Fee</td><td>Spring 2023</td><td>2023-09-15</td><td>5,000.00</td><td><label class='badge badge-success text-white'>Paid</label></td></tr><tr><td>2</td><td>10396550</td><td>Tuition Fee</td><td>Spring 23</td><td>2023-09-05</td><td>48,920.00</td><td><label class='badge badge-success text-white'>Paid</label></td></tr><tr><td>3</td><td>10366753</td><td>Semester Exam Fee</td><td>Fall 2023</td><td>2023-03-25</td><td>5,000.00</td><td><label class='badge badge-success text-white'>Paid</label></td></tr><tr><td>4</td><td>10356194</td><td>Tuition Fee</td><td>Fall 23</td><td>2023-02-13</td><td>49,070.00</td><td><label class='badge badge-success text-white'>Paid</label></td></tr><tr><td>5</td><td>10316405</td><td>BS Admission Fee (Non Refundable)</td><td>Fall 22</td><td>2022-08-30</td><td>5,000.00</td><td><label class='badge badge-success text-white'>Paid</label></td></tr><tr><td>6</td><td>10315620</td><td>Tuition Fee</td><td>Fall 22</td><td>2022-11-15</td><td>19,100.00</td><td><label class='badge badge-success text-white'>Paid</label></td></tr><tr><td>7</td><td>10315619</td><td>Tuition Fee</td><td>Fall 22</td><td>2022-08-26</td><td>28,650.00</td><td><label class='badge badge-success text-white'>Paid</label></td></tr><tr><td>8</td><td>10309924</td><td>KFAT (Non Refundable)</td><td>Spring 22</td><td>2022-08-19</td><td>1,000.00</td><td><label class='badge badge-success text-white'>Paid</label></td></tr><tr><td>9</td><td>10309923</td><td>Under Graduates Admission Processing Fee (Non Refundable)</td><td>Fall 22</td><td>2022-08-19</td><td>750.00</td><td><label class='badge badge-success text-white'>Paid</label></td></tr>                </tbody>
+
+            </table>
+        </div>
+
+
+
+
+
+
+    </div>
+</body>
+</html>
